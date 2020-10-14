@@ -75,6 +75,7 @@
         android:text="@string/back_symbol"
         android:textColor="#FFFF36"
         android:textSize="45sp"
+        android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
