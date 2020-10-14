@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guide for Ace Racer</string>
+    <string name="back_symbol"><![CDATA[<]]></string>
+    <string name="about_app">ABOUT APP</string>
+    <string name="guide">GUIDE</string>
+    <string name="send_feedback_to_developer">SEND FEEDBACK TO DEVELOPER</string>
+    <string name="privacy_policy">PRIVACY POLICY</string>
+    <string name="infinitysenseiofficial">InfinitySenseiOfficial</string>
+    <string name="our_development_group_operates_under_the_name_infinitysenseiofficial_this_page_informs_you_of_our_policies_regarding_the_collection_use_and_disclosure_of_personal_information_we_receive_from_users_of_the_apps_we_use_your_personal_information_only_for_providing_and_improving_the_apps_by_using_our_apps_you_agree_to_the_collection_and_use_of_information_in_accordance_with_this_policy">Our development group operates under the name: InfinitySenseiOfficial. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Apps. We use your Personal Information only for providing and improving the Apps. By using Our Apps, you agree to the collection and use of information in accordance with this policy.</string>
+    <string name="phone_stats_to_track_your_progress_in_our_apps_games_specifically_and_witch_levels_to_lock_and_unlock_we_need_permission_to_read_phone_stats_android_permission_read_phone_state_no_change_can_be_done_to_your_personal_data_no_access_can_be_granted_or_demanded_to_acceess_your_personal_data">Phone Stats To track your progress in our apps (Games specifically) and witch levels to lock and unlock we need permission to read phone stats (android.permission.READ_PHONE_STATE) no change can be done to your personal data/ no access can be granted or demanded to acceess your personal data</string>
+    <string name="contact_developer">CONTACT DEVELOPER:</string>
+    <string name="email_sahilpreet907_gmail_com">Email :infinitysenseiofficial@gmail.com</string>
+    <string name="privacy_policy2">Privacy Policy</string>
+    <string name="send_mail">Send mail</string>
+</resources>
