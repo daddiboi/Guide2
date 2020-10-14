@@ -12,4 +12,9 @@
     <string name="email_sahilpreet907_gmail_com">Email :infinitysenseiofficial@gmail.com</string>
     <string name="privacy_policy2">Privacy Policy</string>
     <string name="send_mail">Send mail</string>
+    <string name="pic">pic</string>
+    <string name="infinitysenseiofficial_gmail_com">infinitysenseiofficial@gmail.com</string>
+    <string name="enter_a_subject">Enter a subject</string>
+    <string name="type_in_your_message">Type in your message</string>
+    <string name="send_feedback">Send Feedback</string>
 </resources>
