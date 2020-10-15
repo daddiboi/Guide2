@@ -32,7 +32,7 @@
         android:layout_height="634dp"
         android:layout_marginTop="16dp"
         android:paddingStart="40dp"
-        android:background="@android:color/white"
+        android:background="@drawable/shape_2"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
