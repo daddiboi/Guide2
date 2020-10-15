@@ -72,5 +72,13 @@
         app:srcCompat="@drawable/main"
         android:contentDescription="@string/pic" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="101dp"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="592dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
