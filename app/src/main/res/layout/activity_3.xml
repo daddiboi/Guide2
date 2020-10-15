@@ -12,6 +12,7 @@
         android:layout_width="60dp"
         android:layout_height="66dp"
         android:shadowColor="#168FEC"
+        android:backgroundTint="@color/colorAccent"
         android:shadowDx="10"
         android:shadowDy="10"
         android:background="@drawable/shape"

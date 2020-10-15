@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shape_2"
+    android:background="@drawable/shape_4"
 
     tools:context=".Activity2">
     <Button
@@ -12,7 +12,7 @@
 
         android:layout_width="60dp"
         android:layout_height="66dp"
-
+        android:backgroundTint="@color/colorAccent"
         android:shadowColor="#A8A8A8"
         android:shadowDx="10"
         android:shadowDy="10"
@@ -36,10 +36,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintVertical_bias="0.055" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

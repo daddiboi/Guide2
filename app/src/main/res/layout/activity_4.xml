@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0FFFF"
+    android:background="@drawable/shape_3"
     tools:context=".Activity4">
 
     <EditText
@@ -79,6 +79,7 @@
         android:textColor="#FFFF36"
         android:textSize="45sp"
         android:background="@drawable/shape"
+        android:backgroundTint="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"

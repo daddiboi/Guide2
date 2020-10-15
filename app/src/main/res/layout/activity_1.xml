@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shape_2"
+    android:background="@drawable/shape_5"
     tools:context=".Activity1">
 
     <Button
@@ -12,7 +12,7 @@
 
         android:layout_width="63dp"
         android:layout_height="66dp"
-
+        android:backgroundTint="@color/colorAccent"
         android:background="@drawable/shape"
         android:shadowColor="#A8A8A8"
         android:shadowDx="10"
