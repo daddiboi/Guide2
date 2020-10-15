@@ -12,7 +12,7 @@
         android:layout_width="60dp"
         android:layout_height="66dp"
 
-        android:shadowColor="#EC1616"
+        android:shadowColor="#168FEC"
         android:shadowDx="10"
         android:shadowDy="10"
         android:background="@drawable/shape"
@@ -28,14 +28,18 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <androidx.core.widget.NestedScrollView
-        android:layout_width="411dp"
-        android:layout_height="649dp"
-        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:layout_marginTop="16dp"
+        android:paddingStart="40dp"
         android:background="@android:color/white"
         android:padding="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="82dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
