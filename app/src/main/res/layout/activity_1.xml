@@ -43,14 +43,14 @@
 
         <ScrollView
             android:id="@+id/sc1"
-            android:layout_width="match_parent"
-            android:layout_height="464dp">
+            android:layout_width="397dp"
+            android:layout_height="466dp">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="10dp"
+                android:layout_marginLeft="25dp"
                 android:text="@string/are_you_a_fan_of_racing_games_we_have_to_agree_that_apart_from_some_mainstream_games_the_offer_of_good_racing_games_isn_t_so_big_on_mobile_however_this_trend_is_slowly_changing_with_the_arrival_of_many_good_games_from_big_companies_now_netease_is_bringing_a_new_racing_game_called_ace_racer_to_android_and_ios_the_game_has_a_big_focus_on_online_multiplayer_and_feels_like_a_mixture_between_other_games_like_asphalt_legends_and_speed_drifters_netease_has_published_a_12_min_video_on_youtube_to_show_some_interesting_details_of_ace_racer_as_we_can_see_the_game_feature_simples_commands_and_the_races_are_relatively_small_with_up_to_2_minutes_of_duration_however_the_scenery_is_well_done_with_multiple_paths_leading_to_the_finish_line_it_has_stunning_graphics_and_we_can_feel_like_we_are_playing_a_console_game_apart_from_the_traditional_competitive_races_the_game_will_also_include_other_events_like_a_gold_collect_mode_and_destruction_races_the_latter_is_particularly_interesting_if_you_want_to_take_a_break_from_traditional_races_and_just_want_to_destroy_your_opponents_unfortunately_the_game_is_still_on_closed_beta_in_south_korea_for_now_the_company_is_yet_to_announce_a_global_launch_we_believe_that_ace_racer_will_be_free_and_online_only_despite_being_a_beta_test_the_game_is_impressive_when_installed_it_weighs_a_little_over_4gb_so_it_s_definitively_a_game_for_high_end_smartphones"
                 android:textSize="23sp" />
         </ScrollView>
