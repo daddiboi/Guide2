@@ -31,15 +31,30 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="172dp"
-        android:layout_height="96dp"
-        android:text="TextView"
+        android:layout_width="333dp"
+        android:layout_height="81dp"
+        android:text="About the app"
+        android:textColor="#000000"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="279dp"
+        android:layout_height="422dp"
+        android:text="The app is currently at version1.0 , update of app will be released as soon as new information is available. If you want add info to be added you can always contact developer of app from main page."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
