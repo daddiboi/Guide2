@@ -37,13 +37,15 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="421dp"
+            android:layout_width="match_parent"
             android:layout_height="266dp"
+            android:background="#000000"
+            android:padding="1dp"
             app:srcCompat="@drawable/car2" />
 
         <ScrollView
             android:id="@+id/sc1"
-            android:layout_width="397dp"
+            android:layout_width="match_parent"
             android:layout_height="466dp">
 
             <TextView
