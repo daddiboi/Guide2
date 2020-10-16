@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/shape_2"
     tools:context=".Activity3">
@@ -20,6 +21,7 @@
         android:text="@string/back_symbol"
         android:textColor="#FFFF36"
         android:textSize="45sp"
+        android:layout_margin="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
@@ -29,15 +31,14 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="634dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:background="@drawable/shape_2"
         android:padding="10dp"
-        android:paddingStart="40dp"
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -53,9 +54,9 @@
                 android:id="@+id/textView"
                 android:layout_width="333dp"
                 android:layout_height="42dp"
+                android:layout_marginTop="24dp"
                 android:text="@string/infinitysenseiofficial"
                 android:textColor="#FF0000"
-                android:layout_marginTop="24dp"
 
                 android:textSize="36sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -139,4 +140,4 @@
     </androidx.core.widget.NestedScrollView>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
