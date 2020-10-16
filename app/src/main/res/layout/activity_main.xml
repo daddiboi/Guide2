@@ -74,19 +74,6 @@
         android:contentDescription="@string/pic" />
 
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="140dp"
-        android:layout_height="101dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939"
-        android:contentDescription="@string/todo"
-        app:srcCompat="@android:drawable/screen_background_dark" />
-
     <RelativeLayout
         android:id="@+id/adView"
         android:layout_width="match_parent"
