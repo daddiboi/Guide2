@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/shape_3"
     tools:context=".Activity4">
+
+    <Button
+        android:id="@+id/button1"
+
+        android:layout_width="60dp"
+        android:layout_height="66dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/colorAccent"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="@string/back_symbol"
+        android:textColor="#FFFF36"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
 
     <EditText
         android:id="@+id/act_main_et_email_address"
         android:layout_width="355dp"
         android:layout_height="53dp"
         android:ems="10"
+
+        android:layout_gravity="center"
         android:inputType="textPersonName"
         android:text="@string/infinitysenseiofficial_gmail_com"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +51,9 @@
         android:id="@+id/act_main_et_email_subject"
         android:layout_width="357dp"
         android:layout_height="55dp"
+        android:layout_gravity="center"
         android:ems="10"
+        android:layout_marginTop="20dp"
         android:hint="@string/enter_a_subject"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +67,9 @@
         android:id="@+id/act_main_et_email_body"
         android:layout_width="348dp"
         android:layout_height="308dp"
+        android:layout_gravity="center"
         android:ems="10"
+        android:layout_marginTop="20dp"
         android:hint="@string/type_in_your_message"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,6 +86,8 @@
         android:layout_width="287dp"
         android:layout_height="53dp"
         android:text="@string/send_feedback"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:textColor="#800000"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,27 +97,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.135" />
 
-    <Button
-        android:id="@+id/button1"
-
-        android:layout_width="60dp"
-        android:layout_height="66dp"
-
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="10"
-        android:shadowDy="10"
-        android:shadowRadius="5"
-        android:text="@string/back_symbol"
-        android:textColor="#FFFF36"
-        android:textSize="45sp"
-        android:background="@drawable/shape"
-        android:backgroundTint="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.019"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
 
     <Button
         android:id="@+id/act_main_bt_send_email_button"
@@ -95,10 +105,12 @@
         android:backgroundTint="#00DDFF"
         android:text="@string/send_mail"
         android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.93" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
