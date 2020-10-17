@@ -46,7 +46,7 @@
         <ScrollView
             android:id="@+id/sc1"
             android:layout_width="match_parent"
-            android:layout_height="466dp">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView11"
