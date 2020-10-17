@@ -83,7 +83,7 @@
     <EditText
         android:id="@+id/act_main_et_email_body"
         android:layout_width="348dp"
-        android:layout_height="308dp"
+        android:layout_height="230dp"
         android:layout_gravity="center"
         android:ems="10"
         android:layout_marginTop="20dp"
