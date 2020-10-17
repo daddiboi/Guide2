@@ -30,12 +30,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/send_feedback"
+        android:textColor="#800000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+
     <EditText
         android:id="@+id/act_main_et_email_address"
         android:layout_width="355dp"
         android:layout_height="53dp"
         android:ems="10"
-
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:inputType="textPersonName"
         android:text="@string/infinitysenseiofficial_gmail_com"
@@ -81,21 +98,6 @@
         android:autofillHints=""
         tools:ignore="TextFields" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="287dp"
-        android:layout_height="53dp"
-        android:text="@string/send_feedback"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:textColor="#800000"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.427"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
 
 
     <Button
